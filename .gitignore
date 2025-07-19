@@ -1,0 +1,52 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment folders
+env/
+venv/
+.venv/
+week-8/Lib/
+week-8/Scripts/
+week-8/include/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and outputs
+*.log
+*.out
+*.tmp
+
+# Ignore data files
+data/*.csv
+data/*.json
+data/*.xlsx
+data/*.zip
+data/*.pkl
+data/*.parquet
+
+# Ignore saved models and large binaries
+*.h5
+*.pt
+*.joblib
+*.pkl
+
+
+
+
+
+# VSCode settings
+.vscode/
+
+# Jupyter runtime files
+~$*
