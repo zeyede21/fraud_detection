@@ -36,10 +36,10 @@ data/*.pkl
 data/*.parquet
 
 # Ignore saved models and large binaries
-*.h5
-*.pt
-*.joblib
-*.pkl
+models/*.h5
+models*.pt
+models*.joblib
+models*.pkl
 
 
 
